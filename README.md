@@ -30,9 +30,9 @@
 ## Installation
 
 > 1. Clone repo
->    - `git clone https://github.com/Learning-Fuze/c718_findcampsiteinfo`
+>    - `git clone https://github.com/dangrt5/happy-camper`
 > 1. Change directory into the newly cloned repo
->    - `cd c718_findcampsiteinfo`
+>    - `cd happy-camper`
 > 1. Install dependencies
 >    - `npm install`
 > 1. Copy data to MySQL database with queries from `dist/server/data/happycamp_rev1.sql`
