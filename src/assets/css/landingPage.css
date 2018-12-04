@@ -129,6 +129,8 @@
 
 .itinerary-logo {
     position: absolute;
+    top: 5px;
+    left: 10px;
     width: 5rem;
     height: 5rem;
     z-index: 5;
