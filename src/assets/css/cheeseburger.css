@@ -85,6 +85,7 @@
 
 div[role] > div:first-of-type {
   height: 100vh;
+  z-index: 10000 !important;
 }
 
 
