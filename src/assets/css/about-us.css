@@ -121,6 +121,11 @@
 
 .team img {
   margin-left: 2.5%;
+  border-radius: 25px 25px;
+}
+
+.team .dev > div img:hover {
+  background-color: lightgreen;
 }
 
 .team .memberPhoto {

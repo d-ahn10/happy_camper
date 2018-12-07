@@ -4,15 +4,15 @@ import "../assets/css/cheeseburger.css";
 
 class HamburgerMenu extends Component {
   backToResults(){
-    this.props.history.goBack()
+    this.props.history.goBack();
   }
   render() {
-    const {history, resultsPath} = this.props
+    const {history, resultsPath} = this.props;
     return (
       <div className="sidebar">
             {window.navigator.onLine ?
               <div className="pages">
-                {history ?
+                {resultsPath !== "/" && history ?
                   <h1 onClick={()=>{history.push(resultsPath)}}>back to results</h1>
                   : ''
                 }

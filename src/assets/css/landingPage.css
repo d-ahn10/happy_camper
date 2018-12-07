@@ -7,7 +7,7 @@
 
   .landing-page-input {
       width: 20vw;
-      font-size: 1.5em;
+      font-size: 1em;
   }
 }
 
@@ -20,7 +20,7 @@
 
   .landing-page-input {
       width: 25vw;
-      font-size: 1.5em;
+      font-size: 1em;
   }
 }
 
@@ -33,7 +33,7 @@
 
   .landing-page-input {
       width: 40vw;
-      font-size: 1.5em;
+      font-size: 1em;
   }
 }
 
@@ -44,7 +44,7 @@
 
   .landing-page-input {
       width: 40vw;
-      font-size: 1.5em;
+      font-size: 1em;
   }
 }
 
@@ -104,10 +104,10 @@
     top:100%;
     animation:load_up 1s forwards;
     animation-delay: .5s;
-    background-image: url(../images/backgrounds/wallpaper-layer2.png);
+    background-image: url(../images/backgrounds/wallpaper-layer2.jpg);
 }
 .landing-page-background1{
-    background-image: url(../images/backgrounds/wallpaper-layer1.png);
+    background-color: white;
 }
 
 @keyframes load_up{
@@ -121,10 +121,26 @@
     }
 
     .landing-page-input {
-        font-size: .8em;
+        /* font-size: .8em; */
         margin-top: .5em;
         width: 37%;
     }
+}
+
+.itinerary-logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 5rem;
+    height: 5rem;
+    z-index: 5;
+    background-image: url("../images/itinerary-icon.png");
+    background-size: contain;
+}
+
+.itinerary-logo:hover {
+    cursor: pointer;
+    background-image: url("../images/itinerary-icon-hover.png");
 }
 
 /* .submit-button {
