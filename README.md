@@ -30,7 +30,7 @@
 ## Installation
 
 > 1. Clone repo
->    - `git clone Learning-Fuze/c718_findcampsiteinfo`
+>    - `git clone https://github.com/Learning-Fuze/c718_findcampsiteinfo`
 > 1. Change directory into the newly cloned repo
 >    - `cd c718_findcampsiteinfo`
 > 1. Install dependencies
