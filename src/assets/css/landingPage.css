@@ -104,10 +104,10 @@
     top:100%;
     animation:load_up 1s forwards;
     animation-delay: .5s;
-    background-image: url(../images/backgrounds/wallpaper-layer2.png);
+    background-image: url(../images/backgrounds/wallpaper-layer2.jpg);
 }
 .landing-page-background1{
-    background-image: url(../images/backgrounds/wallpaper-layer1.png);
+    background-color: white;
 }
 
 @keyframes load_up{
